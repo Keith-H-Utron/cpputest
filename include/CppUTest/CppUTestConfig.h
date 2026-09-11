@@ -124,6 +124,8 @@
   #else
     #define CPPUTEST_CHECK_FORMAT_TYPE printf
   #endif
+#else
+  #define CPPUTEST_CHECK_FORMAT_TYPE printf
 #endif
 
 #if CPPUTEST_HAS_ATTRIBUTE(format)
